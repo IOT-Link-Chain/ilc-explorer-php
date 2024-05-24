@@ -1,7 +1,16 @@
 <?php
+//ini_set('display_startup_errors',1);
+//ini_set('display_errors',1);
+ini_set('session.cookie_httponly', 1);
+ini_set('session.cookie_secure', 1);
+//error_reporting(-1);
 session_start();
-error_reporting(0);
+header('Cache-control: private'); // IE 6 FIX
+header("X-XSS-Protection: 1; mode=block");
+header("X-Content-Type-Options: nosniff");
+
 require_once("settings/setting_general.php");
+require_once("functions/common.php");
 $pag = $_GET['p'];
 include "heads/header.php";
 switch(preg_replace('/[^[:alpha:]_]/', '',$pag)){
