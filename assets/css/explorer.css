@@ -41,6 +41,9 @@ body {
 .navbar-bright li > a:hover {
     background-color:#063608;
 }
+.navbar-nav{
+  margin-top: 10px;
+}
 
 .affix-top,.affix{
 	position: static;
@@ -130,4 +133,9 @@ body {
   }
   .foo a:hover{
     text-decoration: none;
+  }
+
+  .logo{
+    height: 40px;
+    max-height: 40px;
   }

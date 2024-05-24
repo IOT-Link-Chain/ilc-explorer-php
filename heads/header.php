@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="favicon" src="assets/images/favicon.png">
 </head>
-    <link href="assets/explorer.css?rev=<?php echo rand(0000000000001,999999999999999999);?>" rel="stylesheet">
-    <script src="assets/explorer.j?rev=<?php echo rand(0000000000001,999999999999999999);?>"></script>
+    <link href="assets/css/explorer.css?rev=<?php echo rand(0000000000001,999999999999999999);?>" rel="stylesheet">
+    <script src="assets/js/explorer.j?rev=<?php echo rand(0000000000001,999999999999999999);?>"></script>
   </head>
 <header class="navbar navbar-bright navbar-fixed-top" role="banner">
     <div class="container">
@@ -19,7 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="?p=home" class="navbar-brand">EXPLORER ILC</a>
+            <a href="?p=home" class="navbar-brand"><img class="img-fluid" src="assets/images/logo.png"></a>
         </div>
         <nav class="collapse navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">

@@ -1,9 +1,9 @@
 <?php
-//ini_set('display_startup_errors',1);
-//ini_set('display_errors',1);
+ini_set('display_startup_errors',-1);
+ini_set('display_errors',-1);
 ini_set('session.cookie_httponly', 1);
 ini_set('session.cookie_secure', 1);
-//error_reporting(-1);
+error_reporting(-1);
 session_start();
 header('Cache-control: private'); // IE 6 FIX
 header("X-XSS-Protection: 1; mode=block");
@@ -29,6 +29,10 @@ switch(preg_replace('/[^[:alpha:]_]/', '',$pag)){
     break;
     case "list";
     include "pages/list.php";
+    break;
+
+    default:
+    include "pages/home.php";
     break;
 }
 include "heads/footer.php";
