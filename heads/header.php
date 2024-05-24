@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title><?php echo NAMESITE; ?> | <?php echo DESCRIPTION; ?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -19,24 +19,24 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-brand">EXPLORER ILC</a>
+            <a href="?p=home" class="navbar-brand">EXPLORER ILC</a>
         </div>
         <nav class="collapse navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">Get Started</a>
+                    <a href="?p=home">Get Started</a>
                 </li>
                 <li>
-                    <a href="#">Nodes Actives</a>
+                    <a href="?p=nodes">Nodes Actives</a>
                 </li>
                 <li>
-                    <a href="#">Tokens</a>
+                    <a href="?p=tokens">Tokens</a>
                 </li>
                 <li>
-                    <a href="#">Network whales</a>
+                    <a href="?p=list">Network whales</a>
                 </li>
                 <li>
-                    <a href="#">Api Docs</a>
+                    <a href="?p=api">Api Docs</a>
                 </li>
             </ul>
         </nav>
