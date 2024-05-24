@@ -1,0 +1,124 @@
+body {
+	padding-top:50px;
+}
+
+#masthead {
+	min-height:200px;
+	background-color:#063608;
+  	color:#ffffff;
+}
+
+#masthead h1 {
+	font-size: 55px;
+	line-height: 1;
+}
+
+#masthead .well {
+	margin-top:13%;
+	background-color:#063608;
+  	border-color:#063608;
+}
+
+.icon-bar {
+	background-color:#fff;
+}
+
+@media screen and (min-width: 768px) {
+	#masthead h1 {
+		font-size: 100px;
+	}
+}
+
+.navbar-bright {
+	background-color:#063608;
+    color:#fff;
+}
+  
+.navbar-bright a, #masthead a, #masthead .lead {
+  	color:#ffffff;
+}
+
+.navbar-bright li > a:hover {
+    background-color:#063608;
+}
+
+.affix-top,.affix{
+	position: static;
+}
+
+#sidebar li {
+    border-bottom:1px solid #eee;
+}  
+
+#sidebar li.active {
+  	border-right:5px solid #eee;
+}
+
+#mainCol h2 {
+	padding-top: 55px;
+    margin-top: -55px;
+}
+
+@media (min-width: 992px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+.boxilc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   border-radius: 3px;
+   border:#063608 solid 2px; 
+}
+
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #063608; /* Black Gray */
+    color: #fff;
+  }
+
+  footer{
+    min-height: 100px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .pagination{
+    text-size-adjust: 15px;
+    -webkit-text-size-adjust: 10px;
+    -moz-text-size-adjust: 15px;;
+  }
+  .pagination ul{
+    color: #ffffff;
+    background-color: #063608;
+  }
+  .pagination ul li{
+    color: #ffffff;
+    background-color: #063608;
+  }
+  .pagination ul li a{
+    color: #ffffff;
+    background-color: #063608;
+  }
+  
+  
